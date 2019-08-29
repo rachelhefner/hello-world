@@ -15,17 +15,3 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
-
-body, html {
-  height:100%;
-}
-
-.bg {
-  background-image: url("images/summitpresent.png");
-  
-  height: 100%;
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
