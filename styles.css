@@ -16,10 +16,16 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+body, html {
+  height:100%;
+}
+
+.bg {
+  background-image: url("summitpresent.png");
+  
+  height: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
